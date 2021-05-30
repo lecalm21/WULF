@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Convert hp to kw</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="javascripts/hpKwConverter.js"></script>
+  <script src="javascripts/hpKwService.js"></script>
+</head>
+
+<body onLoad="initHpKwConverter()">
+  <div class="container">
+    <h1>Horsepower (hp) to kw converter</h1>
+    <form>
+      <div class="form-row">
+        <div class="col-2">
+          <label for="input_field_hp" >Power in hp</label>
+          <input type="text" id="input_field_hp" class="form-control" placeholder="Horsepower">
+        </div>
+      </div>
+    </form>
+    <div id="hp_kw_result_container">
+      <h2>This is the power in KW</h2>
+      <h3 id="kw_result_value">0</h3>
+    </div>
+  </div>
+</body>
+
+</html>
