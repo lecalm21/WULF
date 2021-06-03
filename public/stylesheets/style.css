@@ -36,16 +36,22 @@ a {
   background-color: black;
   color: gray;
   padding: 40px;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 .feedbackTerminLinkContainer {
   text-align: center;
   border-bottom: 1px solid grey;
   border-width: 110%;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 .teamContainer {
   margin-top: 16px;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 .teamMember {
@@ -65,4 +71,31 @@ a {
 .textTeamMembers {
   margin-top: 16px;
   font-size: 20px;
+}
+
+.footerContainer {
+  margin-left: -15px;
+  margin-right: -15px;
+  background-color: black;
+  color: gray;
+  text-align: -webkit-center;
+  padding: 40px;
+}
+
+.footerRowContainer {
+  align-items: stretch;
+}
+
+.wolfLogoFooter {
+  width: 400px;
+  height: auto;
+}
+
+.footerInstagram {
+  margin-top: 10%;
+  font-size: xx-large;
+}
+
+.footerLinks {
+  margin-top: 10%;
 }
