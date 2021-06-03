@@ -6,6 +6,8 @@ a {
   color: #00b7ff;
 }
 
+/*Icon Page*/
+
 .iconPage {
   background-color: black;
   height: 240px;
@@ -15,7 +17,7 @@ a {
 }
 
 .iconRow {
-  color: grey;
+  color: gray;
   text-align: center;
 }
 
@@ -28,5 +30,39 @@ a {
   margin-left: 4%;
 }
 
-#secondCarousel {
+/*TeamLinkPage*/
+
+.teamLinkContainer {
+  background-color: black;
+  color: gray;
+  padding: 40px;
+}
+
+.feedbackTerminLinkContainer {
+  text-align: center;
+  border-bottom: 1px solid grey;
+  border-width: 110%;
+}
+
+.teamContainer {
+  margin-top: 16px;
+}
+
+.teamMember {
+  text-align: center;
+}
+
+.nameTeamMember {
+  margin-top: 8px;
+}
+
+.teamImage {
+  width: auto;
+  height: 240px;
+  border-radius: 20%;
+}
+
+.textTeamMembers {
+  margin-top: 16px;
+  font-size: 20px;
 }
