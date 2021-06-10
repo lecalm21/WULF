@@ -1,3 +1,4 @@
+/*
 const supertestrequest = require("supertest");
 const app = require("../app");
 
@@ -19,7 +20,7 @@ test("testing if static html content is returned", () => {
     expect(res.text).toMatch(/HPKW/);
   });
 });
-
+*/
 /*
 test("testing if bmi route exists", () => {
   return supertestrequest(app).get("/api/bmi").then(res => {
