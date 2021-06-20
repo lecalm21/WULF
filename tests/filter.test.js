@@ -1,17 +1,15 @@
-
-
 var testFilterFunction = require("../public/javascripts/probefahrt");
 
 
 test("Display the right city", () => {
-    expect(testFilterFunction.myFunction('Regensburg')).toBe('Regensburg');
+    expect(testFilterFunction.loopForSearch(["Regensburg", "München", "Berlin", "Hamburg"],'Regensburg')).toBe('Regensburg');
 });
-
-test('_queryFilter() performs filtering', function() {
-    var filter = tr.myFunction('Regensburg');
-    var passedFilter = function(field) {
-        return filter(field) !== 0;
-    };
-    assert.isTrue(passedFilter({name: 'Regensburg'}));
-    assert.isFalse(passedFilter({name: 'Berlin'}));
+test("Display the right city", () => {
+    expect(testFilterFunction.loopForSearch(["Regensburg", "München", "Berlin", "Hamburg"],'München')).toBe('München');
+});
+test("Display the right city", () => {
+    expect(testFilterFunction.loopForSearch(["Regensburg", "München", "Berlin", "Hamburg"],'Berlin')).toBe('Berlin');
+});
+test("Display the right city", () => {
+    expect(testFilterFunction.loopForSearch(["Regensburg", "München", "Berlin", "Hamburg"],'Hamburg')).toBe('Hamburg');
 });
