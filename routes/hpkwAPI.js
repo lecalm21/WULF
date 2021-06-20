@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-var probefahrt = require("../libs/probefahrt");
+var probefahrt = require("../libs/hpkwconverter");
 
 /* GET hp */
 router.get('/', function(req, res, next) {
