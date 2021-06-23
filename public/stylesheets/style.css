@@ -100,7 +100,7 @@ a {
   margin-top: 10%;
 }
 
-.motoImage{
+.motoImage {
   width: auto;
   float: left;
   height: 370px;
@@ -119,25 +119,22 @@ a {
   align-items: stretch;
 }
 
-.instTextRight{
-  color:white;
+.instTextRight {
+  color: white;
   float: right;
   padding: 20px;
   margin-right: 300px;
-
 }
-.instTextLeft{
-  color:white;
+.instTextLeft {
+  color: white;
   float: left;
   padding: 20px;
   margin-left: 210px;
-
 }
 
 .instLabel {
   margin-bottom: 16px;
   margin-top: 5%;
-
 }
 .topPage {
   background-color: white;
@@ -155,7 +152,6 @@ a {
   float: right;
   margin-top: 5%;
   margin-left: 400px;
-
 }
 .topLinks {
   color: black;
@@ -176,7 +172,7 @@ a {
 }
 
 #myInput {
-  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-image: url("/css/searchicon.png"); /* Add a search icon to input */
   background-position: 10px 12px; /* Position the search icon */
   background-repeat: no-repeat; /* Do not repeat the icon image */
   width: 100%; /* Full-width */
@@ -193,7 +189,8 @@ a {
   font-size: 18px; /* Increase font-size */
 }
 
-#myTable th, #myTable td {
+#myTable th,
+#myTable td {
   text-align: left; /* Left-align text */
   padding: 12px; /* Add padding */
 }
@@ -203,7 +200,50 @@ a {
   border-bottom: 1px solid #ddd;
 }
 
-#myTable tr.header, #myTable tr:hover {
+#myTable tr.header,
+#myTable tr:hover {
   /* Add a grey background color to the table header and on hover */
   background-color: #f1f1f1;
+}
+
+.topPageCalculator {
+  height: 150px;
+  width: 100%;
+  margin-left: -15px;
+}
+
+.calculatorContainerWrapper {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  width: 80px;
+  color: #f1f1f1;
+  padding: 32px;
+}
+
+#co2_calculator_result_container {
+  margin-top: 32px;
+  margin-left: 16px;
+}
+
+.calculateButton {
+  margin-top: 16px;
+}
+
+.inputCo2Calculator {
+  margin-top: 16px;
+}
+#co2_calculator_result_container {
+  background-color: rgba(66, 64, 64, 0.8);
+  border-radius: 20px;
+  padding: 16px;
+}
+
+.inputFieldCalculator {
+  background: rgb(66, 64, 64) !important;
+  border-color: rgb(66, 64, 64) !important;
+}
+
+.routerLinks {
+  text-decoration: none !important;
+  color: #dc3545 !important;
 }
