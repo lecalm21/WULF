@@ -73,6 +73,17 @@ a {
   font-size: 20px;
 }
 
+#firstCarousel {
+  z-index: 2;
+}
+
+.topContainer {
+  position: absolute;
+  margin-top: 16px;
+  width: 100%;
+  z-index: 1;
+}
+
 .footerContainer {
   margin-left: -15px;
   margin-right: -15px;
@@ -137,7 +148,6 @@ a {
   margin-top: 5%;
 }
 .topPage {
-  background-color: white;
   height: 150px;
   width: 100%;
   margin-left: -15px;
